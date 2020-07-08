@@ -7,6 +7,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 public class RedisLockDemoApplication {
     /*添加备注*/
     public static void main(String[] args) {
+        System.out.println("修复bug001");
         SpringApplication.run(RedisLockDemoApplication.class, args);
     }
 
